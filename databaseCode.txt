@@ -1,0 +1,12 @@
+After setuping all the Code files, make sure to Create a table in your database.
+Below is the Code for creating Oracle database table.
+
+SQL> create table ashraf_world_bank
+(
+Account_number number(20),
+name varchar2(40),
+password varchar2(40),
+amount number(20),address varchar2(40),
+mobile_number number(10),
+status varchar2(10)
+);
